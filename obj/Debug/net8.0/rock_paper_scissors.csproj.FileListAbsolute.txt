@@ -1,0 +1,14 @@
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\bin\Debug\net8.0\rock_paper_scissors.exe
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\bin\Debug\net8.0\rock_paper_scissors.deps.json
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\bin\Debug\net8.0\rock_paper_scissors.runtimeconfig.json
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\bin\Debug\net8.0\rock_paper_scissors.dll
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\bin\Debug\net8.0\rock_paper_scissors.pdb
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\obj\Debug\net8.0\rock_paper_scissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\obj\Debug\net8.0\rock_paper_scissors.AssemblyInfoInputs.cache
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\obj\Debug\net8.0\rock_paper_scissors.AssemblyInfo.cs
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\obj\Debug\net8.0\rock_paper_scissors.csproj.CoreCompileInputs.cache
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\obj\Debug\net8.0\rock_paper_scissors.dll
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\obj\Debug\net8.0\refint\rock_paper_scissors.dll
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\obj\Debug\net8.0\rock_paper_scissors.pdb
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\obj\Debug\net8.0\rock_paper_scissors.genruntimeconfig.cache
+C:\Users\JeremysSurface\source\Codeworks\codeworks_online\afternoon_labs\week10\rock_paper_scissors\obj\Debug\net8.0\ref\rock_paper_scissors.dll
