@@ -3,8 +3,8 @@ internal class Program
 {
   static int PlayerScore = 0;
   static int ComputerScore = 0;
-  static readonly string[] choices = ["Rock", "Paper", "Scissors"];
-  static readonly Dictionary<string, string> winConditions = new() { { "Rock", "Scissors" }, { "Paper", "Rock" }, { "Scissors", "Paper" } };
+  static readonly string[] Choices = ["Rock", "Paper", "Scissors"];
+  static readonly Dictionary<string, string> WinConditions = new() { { "Rock", "Scissors" }, { "Paper", "Rock" }, { "Scissors", "Paper" } };
   private static void Main()
   {
     string playerHand = ChooseHand();
@@ -16,7 +16,7 @@ internal class Program
     {
       Console.WriteLine("DRAW GAME");
     }
-    else if (winConditions[playerHand] == computerHand)
+    else if (WinConditions[playerHand] == computerHand)
     {
       Console.WriteLine("YOU WIN");
       PlayerScore++;
@@ -46,9 +46,9 @@ internal class Program
   {
     Console.Clear();
     Console.WriteLine("Which hand do you want to play?");
-    for (int i = 0; i < choices.Length; i++)
+    for (int i = 0; i < Choices.Length; i++)
     {
-      string choice = choices[i];
+      string choice = Choices[i];
       if (choiceIndex == i)
       {
         Console.ForegroundColor = ConsoleColor.DarkGreen;
@@ -63,14 +63,14 @@ internal class Program
     {
       case ConsoleKey.UpArrow:
       case ConsoleKey.LeftArrow:
-        choiceIndex = choiceIndex == 0 ? choices.Length - 1 : choiceIndex - 1;
+        choiceIndex = choiceIndex == 0 ? Choices.Length - 1 : choiceIndex - 1;
         return ChooseHand(choiceIndex);
       case ConsoleKey.RightArrow:
       case ConsoleKey.DownArrow:
-        choiceIndex = choiceIndex == choices.Length - 1 ? 0 : choiceIndex + 1;
+        choiceIndex = choiceIndex == Choices.Length - 1 ? 0 : choiceIndex + 1;
         return ChooseHand(choiceIndex);
       case ConsoleKey.Enter:
-        return choices[choiceIndex];
+        return Choices[choiceIndex];
       case ConsoleKey.Escape:
         Environment.Exit(0);
         return "Exit Application";
@@ -81,8 +81,8 @@ internal class Program
 
   static string GetComputerHand()
   {
-    int randomIndex = new Random().Next(choices.Length);
-    return choices[randomIndex];
+    int randomIndex = new Random().Next(Choices.Length);
+    return Choices[randomIndex];
   }
 
 }
